@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -26,7 +24,18 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDyfxDlDvNY6nDH9DugOxLs2hoZB5CZ1fU",
+          "authDomain": "react-native-462a7.firebaseapp.com",
+          "projectId": "react-native-462a7",
+          "storageBucket": "react-native-462a7.appspot.com",
+          "messagingSenderId": "82267737266",
+          "appId": "1:82267737266:web:6f1915b0a98b2a70f2cdab",
+          "measurementId": "G-MK8SGKRT1Y"
+        }
+      }
     }
   }
 }
